@@ -1,0 +1,4 @@
+relationship,left_rows,matched_rows,match_pct
+Utilisation → Financial (Order + Demand + Person),434447,315060,72.51977801665106
+Utilisation → Technician Costing (SA Type),434447,434447,100.0
+Activity/Financial → Price Book candidate key,434447,266019,61.231634698824024
