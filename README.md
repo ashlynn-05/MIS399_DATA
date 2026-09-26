@@ -1,5 +1,4 @@
-# MIS399_DATA
-# MIS399_DATA — BGIS Workforce Optimisation Project
+# MIS399_DATA - BGIS Workforce Optimisation Project
 
 Data cleaning, standardisation, and linkage pipeline for Group BW1's MIS399 Applied
 Business Project with BGIS. This repo holds the cleaned datasets, the merge
