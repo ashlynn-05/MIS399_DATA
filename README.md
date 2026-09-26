@@ -33,3 +33,17 @@ kept alongside standardised ones so any cleaned value can be traced back to
 its source.
 
 ## Join architecture
+Employee Pay ── Person Number ── Astea Utilisation ── Demand ID + Person Number ── Financial Demands
+│
+├── SA Type ID ── Technician Type Costing
+└── Customer ID + Activity Code ── Price Book Data
+
+
+Match rates are reviewed before any joined data is interpreted — see
+`relationship_quality.csv` for current rates across all relationships.
+
+## Notes on large files
+
+GitHub blocks browser uploads over 25MB and hard-blocks git pushes over
+100MB. The master merge file is committed gzip-compressed for that reason;
+everything else in `Cleaned Data/` is under the limit and committed as-is.
